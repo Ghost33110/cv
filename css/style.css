@@ -151,7 +151,7 @@ nav {
     position: absolute;
     content: " ";
     width: 5px;
-    background-color: #333;
+    background-color: #6e6e6e;
     left: 50%;
     margin-left: -2.5px;
 }
@@ -275,6 +275,11 @@ nav {
     color: #76a3cc;
 }
 
+.fa-school {
+    color: #76a3cc;
+    margin-bottom: 20px;
+}
+
 .education-block h4 {
     margin-bottom: 20px;
 }
@@ -317,18 +322,11 @@ nav {
 /* FOOTER */
 footer {
     background: #333;
-    padding: 20px 0 40px;
-}
-
-footer .glyphicon {
-    font-size: 25px;
-    margin: 20px;
-    color: #76a3cc;
-    height: 30px;
-}
-
-footer .glyphicon:hover {
-    font-size: 27px;
+    padding: 20px 0 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 footer h5 {
