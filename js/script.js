@@ -12,14 +12,14 @@ $(function () {
   });
 
   const gestionNav = (id => {
-    document.getElementById("nav" + id + "Link").addEventListener("click",(() => {
+    document.getElementById("nav" + id + "Link").addEventListener("click", () => {
       // document.location.href = "#" + id.toLowerCase();
       document.getElementsByClassName("active")[0].classList.remove("active");
       document.getElementById("nav" + ("Home" !== id ? id : linkList[1]) + "Item").classList.add("active");
-    }));
+    });
   });
 
-  const linkList = ["Home", "About", "Skills", "Experience", "Education", "Recommandations"];
+  const linkList = ["Home", "About", "Skills", "Experience", "Education", "recreational"];
 
   linkList.forEach(item => gestionNav(item));
 

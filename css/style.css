@@ -97,9 +97,8 @@ nav {
     border: 1px solid white;
     display: inline-block;
     margin-top: 20px;
-    padding: 18px 50px;
-    border-radius: 3px;
-    transition: all 0.3s ease-in 0s;
+    padding: 10px 30px;
+    border-radius: 5px;
 }
 
 .button1:hover {
@@ -120,7 +119,7 @@ nav {
  #skills .progress {
     margin: 30px 20px;
     color: #76a3cc;
-    height: 60px;
+    height: 40px;
 }
 
 #skills .progress-bar {
@@ -138,6 +137,10 @@ nav {
 
 #experience .heading h2 {
     color: #fff;
+}
+
+#experience i {
+    margin-right: 5px;
 }
 
 .timeline {
@@ -298,13 +301,13 @@ nav {
     margin-bottom: 20px;
 }
 
-/* RECOMMANDATIONS */
-#recommandations {
+/* recreational */
+#recreational {
     background: #76a3cc;
     margin-bottom: 30px;
 }
 
-#recommandations .heading h2 {
+#recreational .heading h2 {
     color: #fff;
 }
 
@@ -335,7 +338,11 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.links {
+.mr-20 {
+    margin-right: 20px;
+}
+
+.ml-20 {
     margin-left: 20px;
 }
 
@@ -351,4 +358,13 @@ footer a {
 
 footer a:hover {
     color: #76a3cc;
+}
+
+/* FOOTER */
+.btnCancel {
+    color: #888;
+}
+
+.btnCancel:hover {
+    color: #343a40;
 }
