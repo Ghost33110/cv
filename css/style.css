@@ -113,6 +113,10 @@ nav {
     background: #fff;
 }
 
+#skills .row {
+    margin-bottom: 20px;
+}
+
 #skills .heading h2 {
     color: #76a3cc;
 }
@@ -129,6 +133,10 @@ nav {
 
 #skills .progress h5 {
     text-shadow: 1px 1px 1px #000;
+}
+
+.noMarginBottom {
+    margin-bottom: 0px !important;
 }
 
 /* EXPERIENCE */
