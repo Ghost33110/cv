@@ -11,6 +11,8 @@ $(function () {
     return Math.abs(age.getUTCFullYear() - 1970);
   });
 
+  span.appendChild(document.createTextNode(getAge(new Date(1992, 09, 29))));
+
   const gestionNav = (id => {
     document.getElementById("nav" + id + "Link").addEventListener("click", () => {
       // document.location.href = "#" + id.toLowerCase();
@@ -22,6 +24,4 @@ $(function () {
   const linkList = ["Home", "About", "Skills", "Experience", "Education", "recreational"];
 
   linkList.forEach(item => gestionNav(item));
-
-  span.appendChild(document.createTextNode(getAge(new Date(1992, 09, 29))));
 });

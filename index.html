@@ -37,7 +37,7 @@
                     <a class="nav-link" id="navSkillsLink" href="#skills">Compétences</a>
                 </li>
                 <li id="navExperienceItem" class="nav-item">
-                    <a class="nav-link" id="navExperienceLink" href="#experience">Expérience</a>
+                    <a class="nav-link" id="navExperienceLink" href="#experience">Expériences</a>
                 </li>
                 <li id="navEducationItem" class="nav-item">
                     <a class="nav-link" id="navEducationLink" href="#education">Formations</a>
@@ -49,229 +49,227 @@
         </div>
     </nav>
 
-    <div id="elementToPrint">
-        <section id="about" class="container-fluid">
-            <div class="col-xs-8 profile-picture">
-                <img src="images/photo.png " alt="Louis" class="rounded-circle"
-                title="Photo à venir... enfin, peut-être &#x1F60B;">
+    <section id="about" class="container-fluid">
+        <div class="col-xs-8 profile-picture">
+            <img src="images/photo.png " alt="Louis" class="rounded-circle"
+            title="Photo à venir... enfin, peut-être &#x1F60B;">
+        </div>
+        <div class="heading">
+            <h1>Louis HUOT, <span id="age"></span> ans</h1>
+            <h3>Ingénieur logiciel</h3>
+            <button id="downloadCV" type="button" class="btn btn-link button1" data-toggle="modal"
+                data-target="#exampleModal">Télécharger CV</button>
+        </div>
+    </section>
+
+
+    <section id="skills">
+        <div class="blue-divider"></div>
+        <div class="heading">
+            <h2>Compétences</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                            aria-valuemax="100" style="width:60%">
+                            <h5>JAVASCRIPT</h5>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0"
+                            aria-valuemax="100" style="width:45%">
+                            <h5>BOOTSTRAP</h5>
+                        </div>
+                    </div>
+                    <div class="progress noMarginBottom">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                            aria-valuemax="100" style="width:60%">
+                            <h5>HTML / CSS</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                            aria-valuemax="100" style="width:60%">
+                            <h5>JAVA EE</h5>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0"
+                            aria-valuemax="100" style="width:30%">
+                            <h5>SQL</h5>
+                        </div>
+                    </div>
+                    <div class="progress noMarginBottom">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                            aria-valuemax="100" style="width:50%">
+                            <h5>LINUX</h5>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <div class="white-divider"></div>
             <div class="heading">
-                <h1>Louis HUOT, <span id="age"></span> ans</h1>
-                <h3>Ingénieur logiciel</h3>
-                <button id="downloadCV" type="button" class="btn btn-link button1" data-toggle="modal"
-                    data-target="#exampleModal">Télécharger CV</button>
+                <h2>Expériences Professionelles</h2>
             </div>
-        </section>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge"><span class="bi bi-briefcase"></span></div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>CGI</h3>
+                                <h4><i class="bi bi-code-slash"></i> Développeur</h4>
+                                <p class="text-muted"><i class="bi bi-calendar-event"></i> 2018 - Maintenant
+                                </p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>
+                                    - <b>(Actuel) Projets Javascript et Java pour un leader du secteur bancaire
+                                        auropéen
+                                        (Javascript -> framework propriétaire similaire à Angular JS, Bootstrap /
+                                        Java
+                                        -> Oracle SQL, serveur Linux, astreintes)</b><br />
+                                    - Projet Java pour un acteur majeur de l'assurance dans le top 50 des plus
+                                    grandes
+                                    entreprises mondiales (Maven, Spring Batch, Web Services, Oracle SQL / Sybase,
+                                    JUnit)<br />
+                                    - Projet Java pour un leader de l'énergie (JSP, Apache POI, utilisation
+                                    serveur Linux)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><span class="bi bi-briefcase"></span></div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>AGUR</h3>
+                                <h4><i class="bi bi-droplet-fill"></i> Agent d'Exploitation</h4>
+                                <p class="text-muted"><i class="bi bi-calendar-event"></i> 2015 - 2016</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Contrôle conformité des racordements assainissement</p>
+                                <p>Intervention sur réseaux et infrastructures eau potable et assainissement
+                                    (nouveaux
+                                    branchements, réparations, dépannages)</p>
+                                <p>Périodes d'astreintes</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><span class="bi bi-briefcase"></span></div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Secteur Viticole Bordelais</h3>
+                                <h4><i class="fa-solid fa-wine-bottle"></i> Travail Saisonnier</h4>
+                                <p class="text-muted"><i class="bi bi-calendar-event"></i> Septembre -
+                                    Octobre 2013 et 2014</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Vendange au seins de deux chateaux</p>
+                            </div>
+                        </div>
+                    </div>
 
+                </li>
+                <li>
+                    <div class="timeline-badge"><span class="bi bi-briefcase"></span></div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>SCHENGLER INDUSTRIE</h3>
+                                <h4><i class="bi bi-tools"></i> Technicien de Maintenance</h4>
+                                <p class="text-muted"><i class="bi bi-calendar-event"></i> Janvier à Avril
+                                    2014</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Missions de maintenance dans le cadre d'une formation</p>
+                                <p>Interventions au sein d’aéroports dans toute la France sur les véhicules
+                                    avitailleurs
+                                    pour de la maintenance dans les domaines mécaniques, électriques, pneumatiques
+                                    et
+                                    sur la tuyauterie d’acheminement de carburant</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
 
-        <section id="skills">
+    <section id="education">
+        <div class="container">
             <div class="blue-divider"></div>
             <div class="heading">
-                <h2>Compétences</h2>
+                <h2>Formations / Scolaire</h2>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                                aria-valuemax="100" style="width:60%">
-                                <h5>JAVASCRIPT</h5>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0"
-                                aria-valuemax="100" style="width:35%">
-                                <h5>BOOTSTRAP</h5>
-                            </div>
-                        </div>
-                        <div class="progress noMarginBottom">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                                aria-valuemax="100" style="width:60%">
-                                <h5>HTML / CSS</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                                aria-valuemax="100" style="width:60%">
-                                <h5>JAVA EE</h5>
-                            </div>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0"
-                                aria-valuemax="100" style="width:30%">
-                                <h5>SQL</h5>
-                            </div>
-                        </div>
-                        <div class="progress noMarginBottom">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-                                aria-valuemax="100" style="width:50%">
-                                <h5>LINUX</h5>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section id="experience">
-            <div class="container">
-                <div class="white-divider"></div>
-                <div class="heading">
-                    <h2>Expériences Professionelles</h2>
-                </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-badge"><span class="bi bi-briefcase"></span></div>
-                        <div class="timeline-panel-container-inverted">
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h3>CGI</h3>
-                                    <h4><i class="bi bi-code-slash"></i> Développeur</h4>
-                                    <p class="text-muted"><i class="bi bi-calendar-event"></i> 2018 - Maintenant
-                                    </p>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>
-                                        - <b>(Actuel) Projets Javascript et Java pour un leader du secteur bancaire
-                                            auropéen
-                                            (Javascript -> framework propriétaire similaire à Angular JS, Bootstrap /
-                                            Java
-                                            -> Oracle SQL, serveur Linux, astreintes)</b><br />
-                                        - Projet Java pour un acteur majeur de l'assurance dans le top 50 des plus
-                                        grandes
-                                        entreprises mondiales (Maven, Spring Batch, Web Services, Oracle SQL / Sybase,
-                                        JUnit)<br />
-                                        - Projet Java pour un leader de l'énergie (JSP, Apache POI, utilisation
-                                        serveur Linux)
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-badge"><span class="bi bi-briefcase"></span></div>
-                        <div class="timeline-panel-container-inverted">
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h3>AGUR</h3>
-                                    <h4><i class="bi bi-droplet-fill"></i> Agent d'Exploitation</h4>
-                                    <p class="text-muted"><i class="bi bi-calendar-event"></i> 2015 - 2016</p>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>Contrôle conformité des racordements assainissement</p>
-                                    <p>Intervention sur réseaux et infrastructures eau potable et assainissement
-                                        (nouveaux
-                                        branchements, réparations, dépannages)</p>
-                                    <p>Périodes d'astreintes</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-badge"><span class="bi bi-briefcase"></span></div>
-                        <div class="timeline-panel-container-inverted">
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h3>Secteur Viticole Bordelais</h3>
-                                    <h4><i class="fa-solid fa-wine-bottle"></i> Travail Saisonnier</h4>
-                                    <p class="text-muted"><i class="bi bi-calendar-event"></i> Septembre -
-                                        Octobre 2013 et 2014</p>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>Vendange au seins de deux chateaux</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </li>
-                    <li>
-                        <div class="timeline-badge"><span class="bi bi-briefcase"></span></div>
-                        <div class="timeline-panel-container-inverted">
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h3>SCHENGLER INDUSTRIE</h3>
-                                    <h4><i class="bi bi-tools"></i> Technicien de Maintenance</h4>
-                                    <p class="text-muted"><i class="bi bi-calendar-event"></i> Janvier à Avril
-                                        2014</p>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>Missions de maintenance dans le cadre d'une formation</p>
-                                    <p>Interventions au sein d’aéroports dans toute la France sur les véhicules
-                                        avitailleurs
-                                        pour de la maintenance dans les domaines mécaniques, électriques, pneumatiques
-                                        et
-                                        sur la tuyauterie d’acheminement de carburant</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="education">
-            <div class="container">
-                <div class="blue-divider"></div>
-                <div class="heading">
-                    <h2>Formations / Scolaire</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="education-block">
-                            <h5>Avril - Juin 2018</h5>
-                            <i class="fa-solid fa-school fa-xl"></i>
-                            <h3>EPSI - Bordeaux</h3>
-                            <h4>Formation POEI</h4>
-                            <div class="blue-divider"></div>
-                            <p>Formation en développement JAVA et Web</p>
-                            <p>Formation EAI sur Web Method et TIBCO BW</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="education-block">
-                            <h5>Septembre - Novembre 2017</h5>
-                            <i class="fa-solid fa-school fa-xl"></i>
-                            <h3>Site Informatique - Villenave d'Ornon</h3>
-                            <h4>Parcours modularisé Tronc commun Métiers de l'administration systèmes et réseaux
-                                informatiques et télécommunications</h4>
-                            <div class="blue-divider"></div>
-                            <p>Découverte du milieu de l'informatique</p>
-                            <p>Présentation de l'aspect réseau / télécommunication, développement et support
-                                informatique
-                            </p>
-                        </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="education-block">
+                        <h5>Avril - Juin 2018</h5>
+                        <i class="fa-solid fa-school fa-xl"></i>
+                        <h3>EPSI - Bordeaux</h3>
+                        <h4>Formation POEI</h4>
+                        <div class="blue-divider"></div>
+                        <p>Formation en développement JAVA et Web</p>
+                        <p>Formation EAI sur Web Method et TIBCO BW</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="education-block">
-                            <h5>2012</h5>
-                            <i class="fa-solid fa-school fa-xl"></i>
-                            <h3>Lycée Gustave Eiffel - Bordeaux</h3>
-                            <h4>BTS Maintenance Industrielle</h4>
-                            <div class="blue-divider"></div>
-                            <p>Maintenance de materiel industriel</p>
-                            <p>Système méquanique / électrotechnique</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="education-block">
-                            <h5>2010</h5>
-                            <i class="fa-solid fa-school fa-xl"></i>
-                            <h3>Lycée Gustave Eiffel - Bordeaux</h3>
-                            <h4>BAC STI Génie Mécanique</h4>
-                            <div class="blue-divider"></div>
-                            <p>Option Productique</p>
-                            <p>Utilisation de machines outils à commande numérique</p>
-                        </div>
+                <div class="col-lg-6">
+                    <div class="education-block">
+                        <h5>Septembre - Novembre 2017</h5>
+                        <i class="fa-solid fa-school fa-xl"></i>
+                        <h3>Site Informatique - Villenave d'Ornon</h3>
+                        <h4>Parcours modularisé Tronc commun Métiers de l'administration systèmes et réseaux
+                            informatiques et télécommunications</h4>
+                        <div class="blue-divider"></div>
+                        <p>Découverte du milieu de l'informatique</p>
+                        <p>Présentation de l'aspect réseau / télécommunication, développement et support
+                            informatique
+                        </p>
                     </div>
                 </div>
             </div>
-        </section>
-    </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="education-block">
+                        <h5>2012</h5>
+                        <i class="fa-solid fa-school fa-xl"></i>
+                        <h3>Lycée Gustave Eiffel - Bordeaux</h3>
+                        <h4>BTS Maintenance Industrielle</h4>
+                        <div class="blue-divider"></div>
+                        <p>Maintenance de materiel industriel</p>
+                        <p>Système méquanique / électrotechnique</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="education-block">
+                        <h5>2010</h5>
+                        <i class="fa-solid fa-school fa-xl"></i>
+                        <h3>Lycée Gustave Eiffel - Bordeaux</h3>
+                        <h4>BAC STI Génie Mécanique</h4>
+                        <div class="blue-divider"></div>
+                        <p>Option Productique</p>
+                        <p>Utilisation de machines outils à commande numérique</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="recreational">
         <div class="container">
@@ -281,49 +279,49 @@
             </div>
             <div class="row">
                 <div id="carouselLoisir" class="carousel slide col-md-8 offset-md-2" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselLoisir" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselLoisir" data-slide-to="1"></li>
-                        <li data-target="#carouselLoisir" data-slide-to="2"></li>
-                        <li data-target="#carouselLoisir" data-slide-to="3"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-interval="5000">
-                            <img src="images/badminton.jpg" class="d-block w-100" alt="">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Badminton</h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item" data-interval="5000">
-                            <img src="images/modelisme.png" class="d-block w-100" alt="">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Modélisme</h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item" data-interval="5000">
-                            <img src="images/JV.png" class="d-block w-100" alt="">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Jeux Vidéos</h5>
-                            </div>
-                        </div>
-                        <div class="carousel-item" data-interval="5000">
-                            <img src="images/dev.png" class="d-block w-100" alt="">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Développement</h5>
-                            </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselLoisir" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselLoisir" data-slide-to="1"></li>
+                    <li data-target="#carouselLoisir" data-slide-to="2"></li>
+                    <li data-target="#carouselLoisir" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="5000">
+                        <img src="images/badminton.jpg" class="d-block w-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Badminton</h5>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-target="#carouselLoisir" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-target="#carouselLoisir" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </button>
+                    <div class="carousel-item" data-interval="5000">
+                        <img src="images/modelisme.png" class="d-block w-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Modélisme</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="5000">
+                        <img src="images/JV.png" class="d-block w-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Jeux Vidéos</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="5000">
+                        <img src="images/dev.png" class="d-block w-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Développement</h5>
+                        </div>
+                    </div>
                 </div>
-                </divv>
+                <button class="carousel-control-prev" type="button" data-target="#carouselLoisir" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselLoisir" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
             </div>
+            </divv>
+        </div>
     </section>
 
     <footer>
